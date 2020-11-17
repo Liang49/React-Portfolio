@@ -1,0 +1,99 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.vertical {
+  height: 40px;
+  line-height: 40px;
+  background-color: #f8f9fa;
+  font-family: "Courier New", Courier, monospace;
+}
+.left {
+  color: rgba(0, 0, 0, 0.9);
+}
+.right {
+  float: right;
+}
+.space {
+  padding-left: 1em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.icon {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  width: 440px;
+  height: 480px;
+  margin: 10px;
+}
+
+.tests {
+  font-size: 2em;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+}
+.test {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .test {
+    display: block;
+  }
+  .icon {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .icon {
+    width: 90%;
+    height: 300px;
+  }
+}
+* {
+  margin-top: 0;
+}
+
+.contact-page {
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 4rem;
+}
+.text {
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+  font-family: Georgia, serif;
+}
+.listContact {
+  text-align: center;
+}
+.myContact {
+  display: inline-block;
+  font-family: Georgia, serif;
+  padding: 10px;
+}
+.text h3 {
+  text-align: left;
+  margin: 0;
+}
+p a {
+  margin: 0;
+}
+
+.bottom {
+  text-align: center;
+}
+.about-page {
+  text-align: center;
+  font-size: 4rem;
+  font-family: Georgia, serif;
+}
+.whole p {
+  font-family: Georgia, serif;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
